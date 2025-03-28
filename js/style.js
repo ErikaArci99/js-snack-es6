@@ -103,5 +103,8 @@ const squadre = [
 
 console.log(squadre);
 
-// NUMERO RANDOM PER I PUNTI
+// FUNZIONE CHE GENERA NUMERI RANDOM
 
+function numeriRandom(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
