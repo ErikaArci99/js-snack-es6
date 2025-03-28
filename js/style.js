@@ -108,3 +108,21 @@ console.log(squadre);
 function numeriRandom(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+
+// AGGIORNIAMO I PUNTI E I FALLI DELLE SQUADRE
+for (let i in squadre) {
+    squadre[i].punti = numeriRandom(1, 70); 
+    squadre[i].falli = numeriRandom(1, 150);
+}
+
+// STAMPO L'ARRAY AGGIORNATO
+console.log(squadre);
+
+// CREO UN NUOVO ARRAY CONTENENTE SOLO NOME E FALLI
+const nomeEfalli = [];
+for (let i in squadre) {
+    nomeEfalli.push({ nomeSquadra: squadre[i].nomeSquadra, falli: squadre[i].falli });
+}
+
+// STAMPO IL NUOVO ARRAY
+console.log(nomeEfalli);
