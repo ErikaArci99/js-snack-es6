@@ -65,3 +65,43 @@ for (let i = 1; i < biciclette.length; i++) {
 
 // STAMPO RISULTATO IN CONSOLE
 console.log(piuLeggera);
+
+
+// ----SNACK 2---- //
+
+// ARRAY COMPOSTO DA OGGETTI
+
+const squadre = [
+    {
+        nomeSquadra: 'Juventus',
+        punti: 0,
+        falli: 0,
+    },
+    {
+        nomeSquadra: 'Roma',
+        punti: 0,
+        falli: 0,
+    },
+    {
+        nomeSquadra: 'Napoli',
+        punti: 0,
+        falli: 0,
+    },
+    {
+        nomeSquadra: 'Inter',
+        punti: 0,
+        falli: 0,
+    },
+    {
+        nomeSquadra: 'Milan',
+        punti: 0,
+        falli: 0,
+    },
+]
+
+// STAMPO L`ARRAY IN CONSOLE
+
+console.log(squadre);
+
+// NUMERO RANDOM PER I PUNTI
+
