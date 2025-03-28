@@ -10,3 +10,5 @@ Snack2 Creare un array di oggetti di squadre di calcio. Ogni squadra avrà diver
 
 Numero minimo push: 7
 Buon lavoro
+
+DONE
